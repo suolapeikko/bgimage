@@ -35,6 +35,6 @@ for screen in screens {
         try workspace.setDesktopImageURL(URL.init(fileURLWithPath: args[1]), for: screen, options:[:])
     }
     catch let error {
-        print("Failed to set up a bsackground image for screen: \(error)")
+        print("Failed to set up a background image for screen: \(error)")
     }
 }
